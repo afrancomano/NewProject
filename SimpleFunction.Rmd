@@ -1,0 +1,16 @@
+---
+title: "SimpleFunction"
+author: "Anne Francomano"
+date: "May 29, 2018"
+output: 
+    html_document:
+    keep_md: TRUE
+---
+
+#Example code for using RStudio with Git and GitHub  Unit 4
+```{r}
+se<- function(x){
+  sd(x)/length(x)
+}
+```
+
